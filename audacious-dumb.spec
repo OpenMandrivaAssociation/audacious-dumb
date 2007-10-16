@@ -1,19 +1,19 @@
 %define name audacious-dumb
-%define version 0.42
+%define version 0.55
 %define release %mkrel 1
 
 Summary: MOD player plugin for Audacious based on DUMB
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Source0: http://www.netswarm.net/misc/%name-%version.tar.bz2
+Source0: http://www.netswarm.net/misc/%name-%version.tar.gz
 License: GPL
 Group: Sound
 Url: http://www.netswarm.net/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: dumb-devel
-BuildRequires: libaudacious-devel
-Requires: audacious
+BuildRequires: libaudacious-devel >= 5:1.4.0-0.beta1.3mdv2008.1
+Requires: audacious >= 5:1.4.0-0.beta1.3mdv2008.1
 Provides: beep-media-player-dumb
 Obsoletes: beep-media-player-dumb
 
