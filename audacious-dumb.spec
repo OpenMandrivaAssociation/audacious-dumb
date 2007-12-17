@@ -10,7 +10,6 @@ Source0: http://www.netswarm.net/misc/%name-%version.tar.gz
 License: GPL
 Group: Sound
 Url: http://www.netswarm.net/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: dumb-devel
 BuildRequires: libaudacious-devel >= 5:1.4.0-0.beta1.3mdv2008.1
 Requires: audacious >= 5:1.4.0-0.beta1.3mdv2008.1
