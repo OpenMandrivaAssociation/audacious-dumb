@@ -1,13 +1,13 @@
 %define name audacious-dumb
 %define version 0.57
-%define release %mkrel 3
+%define release %mkrel 4
 
 Summary: MOD player plugin for Audacious based on DUMB
 Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: http://www.netswarm.net/misc/%name-%version.tar.gz
-License: GPL
+License: GPLv2+
 Group: Sound
 Url: http://www.netswarm.net/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
