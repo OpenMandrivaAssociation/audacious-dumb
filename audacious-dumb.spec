@@ -1,5 +1,5 @@
 %define name audacious-dumb
-%define version 0.62
+%define version 0.64
 %define release %mkrel 1
 
 Summary: MOD player plugin for Audacious based on DUMB
