@@ -1,6 +1,6 @@
 %define name audacious-dumb
 %define version 0.74
-%define release %mkrel 1
+%define release %mkrel 2
 %define audepoch 5
 %define audver 3.1
 
