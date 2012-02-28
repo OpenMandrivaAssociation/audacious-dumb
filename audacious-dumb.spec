@@ -15,6 +15,7 @@ Url: http://www.netswarm.net/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: dumb-devel
 BuildRequires: libaudacious-devel >= %audepoch:%audver
+BuildRequires: audacious
 Requires: audacious >= %audepoch:%audver
 Provides: beep-media-player-dumb
 Obsoletes: beep-media-player-dumb
