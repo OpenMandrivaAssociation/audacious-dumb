@@ -11,7 +11,7 @@ Release: %{release}
 Source0: http://www.netswarm.net/misc/%name-%version.tar.gz
 License: GPLv2+
 Group: Sound
-Url: http://www.netswarm.net/
+Url: https://www.netswarm.net/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: dumb-devel
 BuildRequires: libaudacious-devel >= %audepoch:%audver
